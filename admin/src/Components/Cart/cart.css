@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* .cart-container{
+    background-color: #ee4d2d;
+} */
+
+h1 {
+    text-align: center;
+    background-color: #fff;
+
+    align-items: center;
+    line-height: 1.5em !important;
+    font-size: 4em !important;
+}
+h3{
+    background-color:  #ee4d2d;
+    color: white !important;
+}
+
+.title, .card-number, .cvv-input input, .month select, .year select, .cvv-details, .cvv-details p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.card-number, .month select, .year select, .cvv-input input {
+    opacity: .7;
+    color: #86939e;
+}
+
+.card-number, .month select, .year select, .cvv-input input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.month select, .year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    /* background: url('caret.png') no-repeat 85% 50%; */
+    appearance: none;
+}
+
+.month select {
+    float: left;
+}
+
+.year select {
+    float: right;
+}
+
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+/* Buttons Section */
+.paypal-btn, .proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 6px;
+}
+
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #7dc855;
+}
+
+.paypal-btn a, .proceed-btn a {
+    text-decoration: none;
+}
+
+.proceed-btn a {
+    color: #fff;
+}
+
+.paypal-btn a {
+    color: rgba(242, 242, 242, .7);
+}
+
+.paypal-btn {
+    padding-right: 95px;
+    /* background: url('paypal-logo.svg') no-repeat 65% 56% #009cde; */
+}
+
+/* Other styles */
+.login, .class1, .class2, .class3 {
+    text-align: auto;
+}
+
+#head {
+    display: flex;
+}
+
+#footer, header, .container, .product, .add-to-cart, .cart, #foot {
+    text-align: center;
+}
+
+body {
+    /* background: url('/image/3.jpg') no-repeat; */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+table{
+    background-color: #fff;
+}
+.container-qr {
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: center; /* Đặt khoảng trống giữa các phần tử để chúng nằm ở hai bên */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  .qr {
+    text-align: center; /* Căn giữa các phần tử con */
+    margin: 10px; /* Thêm khoảng cách giữa các phần tử con nếu bạn muốn */
+  }
+  

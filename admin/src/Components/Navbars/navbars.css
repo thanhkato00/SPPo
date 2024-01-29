@@ -1,0 +1,27 @@
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px !important;
+}
+
+.container {
+  height: 5rem;
+  font-size: 18px !important;
+}
+.spcontainer {
+  
+  background: linear-gradient(to bottom, #ee4d2d,#FF8C00);
+  /* Bắt đầu từ màu cam đậm (#FF8C00) và kết thúc ở màu cam nhạt (#FFD700) */
+  width: 100%;
+
+}
+.colorchange{
+  color:rgb(255, 255, 255) !important;
+}
+.btn3{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  background: transparent;
+  border: none;
+  text-decoration: dashed;
+  color: #ffffff;
+}

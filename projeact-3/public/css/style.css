@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {  
+  font-size: 86%;
+}
+
+.main {
+  background-image: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 360px;
+  min-height: 100px;
+  padding: 32px 24px;
+  text-align: center;
+  background: #fff;
+  border-radius: 2pz;
+  margin: 24px;
+  align-self: center;
+  box-shadow: 0 2px 5px 9 rgba(51, 62, 73, 0.1);
+}
+
+.form .heading {
+  font-size: 2rem;
+}
+
+.form .desc {
+  text-align: center;
+  color: #636d77;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: lighter;
+  font-weight: 300;
+  margin-top: 16px;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.form-label,
+.form-message {
+  text-align: left;
+}
+
+.form-label {
+  font-weight: 700;
+  padding-bottom: 6px;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.form-control {
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #b3b3b3;
+  border-radius: 3px;
+  outline: none;
+  font-size: 1.4rem;
+}
+
+.form-control:hover {
+  border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-message {
+  color: #f33a58;
+}
+
+.form-message {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 4px 0 0;
+}
+
+.form-submit {
+  outline: none;
+  background-color: #1dbfaf;
+  margin-top: 12px;
+  padding: 12px 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #1ac7b6;
+}
+
+.spacer {
+  margin-top: 36px;
+}
+
+#them {
+  padding: 10px;
+  font-size: 1.5em;
+}
+/* li{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} */
+/* Trong phần CSS của bạn */
+.custom-tooltip.tooltip {
+  position: absolute;
+  width: 450px;
+  margin-right: 20px;
+  right: 0;
+  background-color: #000000;
+}
+
+.custom-tooltip.tooltip ul {
+  list-style-type: none;
+  padding: 0;
+  width: 450px;
+  text-align: left;
+  color: #000000;
+}
+
+.custom-tooltip.tooltip li {
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  padding: 5px;
+  color: #000000;
+}
+.cartItemCount{
+  margin-left: 2rem;
+  position: absolute;
+  color: red;
+  border-radius: 80%;
+  background-color: #fff;
+  margin-top: -3rem;
+  width: 2.5rem;
+  height: 2rem;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+/* Thêm đoạn mã CSS sau vào nơi bạn đang sử dụng CSS cho component này */
+
+/* Chọn thẻ li trong danh sách */
+ul li {
+  display: flex; /* Sử dụng flexbox để căn cứng các phần tử con */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-bottom: 10px; /* Khoảng cách giữa các mục trong danh sách */
+}
+
+/* Chọn nút cộng và nút trừ */
+ul li button {
+  margin: 0 5px; /* Khoảng cách giữa nút cộng và nút trừ */
+}
+.pagination-container {
+  text-align: right !important;
+}
